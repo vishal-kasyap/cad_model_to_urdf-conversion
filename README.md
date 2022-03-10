@@ -1,14 +1,14 @@
 # cad_to_urdf_conversion
 
-# 1
+## 1
 
 If the CAD Software being used is Fusion 360, then the following repo is best suited to convert the CAD model into URDF.
 
-# https://github.com/yanshil/Fusion2PyBullet
+    https://github.com/yanshil/Fusion2PyBullet
 
 The converted URDF can be easily imported in CoppeliaSim software.
 
-# NOTE:
+## NOTE:
 The following things should be kept in mind for successful conversion
 
   1. The Bullet_URDF plugin should be included in the Fusion 360 CAD Software.
@@ -22,7 +22,7 @@ The following things should be kept in mind for successful conversion
   9. Once done, save the file and repeat step 7
   
  
-# 2
+## 2
   
 If the CAD Software being used is not Fusion 360,
   1. Save the CAD Model in a specific format.
@@ -30,9 +30,9 @@ If the CAD Software being used is not Fusion 360,
   3. Repeat the above mentioned procedure.
   
 
-# 3
+## 3
 
-# https://github.com/syuntoku14/fusion2urdf
+     https://github.com/syuntoku14/fusion2urdf
   
 This repo can be used to export urdf from fusion 360 directly.
 
@@ -41,4 +41,25 @@ This repo exports:
   1. .urdf file of CAD model
   2. .launch and .yaml files to simulate the robot model on gazebo
   3. .stl files of the robot model
+  
+
+ ## Conversion 
+  
+ The above mentioned implementation is done to a model created using Fusion 360 softaware. 
+ It is then imported into CoppeliaSim Environment using the URDF File created.
+  
+  
+  
+ 
+ ### CAD File - Fusion 360
+  
+  ![alt text](https://github.com/vishal-kasyap/cad_to_urdf_conversion/blob/main/fusion360_model.png "Model created in Fusion360")
+  
+  
+  
+  
+ ### URDF Import - CoppeliaSim  
+  
+  ![alt text](https://github.com/vishal-kasyap/cad_to_urdf_conversion/blob/main/coppeliasim_model.png "Model Imported in CoppeliaSim Environment")
+  
   
