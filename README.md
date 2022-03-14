@@ -43,7 +43,7 @@ This repo exports:
   3. .stl files of the robot model
   
 
- ## Conversion 
+ ## Conversion done for a Fusion 360 CAD File
   
  The above mentioned implementation is done to a model created using Fusion 360 softaware. 
  It is then imported into CoppeliaSim Environment using the URDF File created.
